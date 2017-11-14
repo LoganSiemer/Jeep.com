@@ -4,64 +4,78 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeep.com</title>
-    <style>
-         * {
-    padding: 0px;
-    margin: 0px;
-}
-
-
-
-.Header {
-    display: flex;
-    flex-direction: end;
-    background-color: black;
-    width: 100%;
-    height: 80%;
-    border: 2px solid black;
-}
-
-.img {
-    width: 100px;
-    height: 40px;
-    margin:20px 0px 20px 20px;
-}
-
-.main-content {
-    display: flex;
-    justify-content: center;
-}
-
-.item1 {
-    display: flex;
-    width: 50%;
-    height: 50%;
-}
-
-@media screen and (max-width: 400px) {
-    .container {
-        flex-direction: row;
-    }
-}
-
-@media  and (max-width: 400px) {
-    .container {
-        flex-direction: column;
-    }
-    
-}
-    </style>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div class="Header">
-        <img class="img" src="logo-jeep.png" ;>
+    <div class="navbar">
+        <a href=""><img class="img" src="logo-jeep.png"></a>
+        <div class="dropdown">
+            <a class="dropbtn" style="font-size:12px;"><b>VEHICLES</b>
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn" style="font-size:12px;">
+                <b>SHOPPING TOOL</b>
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn" style="font-size:12px;"><b>CAPABILITY</b>
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn" style="font-size:12px;">
+                <b>OWNERS</b>
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div style="flex:1;">
+            
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn" style="font-size:12px;"><i class=" fa fa-map-marker" aria-hidden="true"></i>
+                <b>DEALERS & VEHICLES</b>
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+        </div>
     </div>
-    <div class="main-content">
-        <img src="Jeep2.jpg">
+    <div>
+        <img class="main-image" src="Jeep2.jpg">
     </div>
-    <div class="item1">
-        <img src="jeep-photos.png" alt=""></img>
+    <div class="bg-bg-images1-4">
+        <div class="bg-images1-4">
+            <div>
+                <img style="margin-left: 20px;" class="images1-4" src="1-4.jpg">
+                <a href="">
+                <img src="bottom-images1-4.png" class="bottom-images1-4">
+            </a>
+            </div>
+            <div>
+                <img class="images1-4" src="4-4.jpg">
+                <a href="">
+                <img src="bottom-images1-4.png" class="bottom-images2-4">
+            </a>
+            </div>
+            <div>
+                <img class="images1-4" src="2-4.jpg">
+                <a href="">
+                <img src="bottom-images1-4.png" class="bottom-images2-4">
+            </a>
+            </div>
+            <div>
+                <img style="margin-right: 16px;" class="images1-4" src="3-4.jpg">
+                <a href="">
+                <img src="bottom-images1-4.png" class="bottom-images2-4">
+            </a>
+            </div>
+        </div>
+    </div>
+    <div class="under1-4">
+        <a href=""></a>
     </div>
 </body>
 
