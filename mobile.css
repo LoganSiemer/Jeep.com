@@ -1,0 +1,142 @@
+@media screen and (min-width: 400px) {
+
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .Header {
+        background-color: black;
+        float: left;
+    }
+
+    .title {
+        color: white;
+        font-family: Arial;
+    }
+
+    .img {
+        width: 90px;
+        margin: 6.5px 0px 6.5px 0px;
+        padding-top: 0.5px;
+    }
+
+    .navbar {
+        display: flex;
+        overflow: hidden;
+        background-color: black;
+        font-family: Arial;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .dropdown {
+        margin: 19px 0px 0px 0px;
+        float: left;
+        overflow: hidden;
+        font-size: 10px;
+        z-index: 1;
+    }
+
+    .dropdown2 {
+        display: flex;
+        align-items: flex-end;
+        margin: 19px 0px 0px 0px;
+        float: left;
+        overflow: hidden;
+        font-size: 10px;
+        z-index: 1;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+    }
+
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: lightgray;
+    }
+
+    .dropdown:hover {
+        display: block;
+    }
+
+    .main-image {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 50.5%;
+    }
+
+    .item1 {
+        display: flex;
+        width: 50%;
+        height: 50%;
+    }
+
+    .bg-images1-4 {
+        display: flex;
+        background-color: lightgray;
+    }
+
+    .bg-bg-images1-4 {
+        background-color: black;
+        justify-content: center;
+    }
+
+    .images1-4 {
+        display: flex;
+        justify-content: center;
+        background-color: lightgray;
+        width: 296px;
+        height: 218px;
+        margin: 21px 9.5px 0px 9.5px;
+        flex-shrink: 1;
+        border: none;
+    }
+
+    .bottom-images1-4 {
+        display: flex;
+        align-self: baseline;
+        z-index: 1;
+        width: 296px;
+        height: 28px;
+        margin-left: 20px;
+        margin-bottom: 21px;
+    }
+
+    .bottom-images2-4 {
+        display: flex;
+        align-self: baseline;
+        z-index: 1;
+        width: 296px;
+        height: 28px;
+        margin-left: 9px;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .under1-4 {
+        width: 100%;
+        height: 569px;
+        flex-wrap: wrap;
+        background-color: white;
+    }
+}
