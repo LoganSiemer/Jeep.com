@@ -1,5 +1,9 @@
 @media screen and (min-width: 400px) {
 
+    .images2-4 {
+        flex-wrap: wrap;
+    }
+
     * {
         padding: 0px;
         margin: 0px;
@@ -20,7 +24,7 @@
         margin: 6.5px 0px 6.5px 0px;
         padding-top: 0.5px;
     }
-
+    /* Navbar container */
     .navbar {
         display: flex;
         overflow: hidden;
@@ -29,7 +33,7 @@
         margin: 0px;
         width: 100%;
     }
-
+    /* Links inside the navbar */
     .navbar a {
         float: left;
         font-size: 16px;
@@ -38,7 +42,6 @@
         padding: 14px 16px;
         text-decoration: none;
     }
-
     .dropdown {
         margin: 19px 0px 0px 0px;
         float: left;
@@ -46,97 +49,99 @@
         font-size: 10px;
         z-index: 1;
     }
+}
 
-    .dropdown2 {
-        display: flex;
-        align-items: flex-end;
-        margin: 19px 0px 0px 0px;
-        float: left;
-        overflow: hidden;
-        font-size: 10px;
-        z-index: 1;
-    }
+.dropdown2 {
+    display: flex;
+    align-items: flex-end;
+    margin: 19px 0px 0px 0px;
+    float: left;
+    overflow: hidden;
+    font-size: 10px;
+    z-index: 1;
+}
 
-    .dropdown .dropbtn {
-        font-size: 16px;
-        border: none;
-        outline: none;
-        color: white;
-        padding: 14px 16px;
-        background-color: inherit;
-    }
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
 
-    .navbar a:hover,
-    .dropdown:hover .dropbtn {
-        background-color: lightgray;
-    }
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: lightgray;
+}
 
-    .dropdown:hover {
-        display: block;
-    }
+.dropdown:hover {
+    display: block;
+}
 
-    .main-image {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 50.5%;
-    }
+.main-image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50.5%;
+}
 
-    .item1 {
-        display: flex;
-        width: 50%;
-        height: 50%;
-    }
+.item1 {
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
 
-    .bg-images1-4 {
-        display: flex;
-        background-color: lightgray;
-    }
+.bg-images1-4 {
+    display: flex;
+    background-color: lightgray;
+}
 
-    .bg-bg-images1-4 {
-        background-color: black;
-        justify-content: center;
-    }
+.bg-bg-images1-4 {
+    background-color: black;
+    justify-content: center;
+}
 
-    .images1-4 {
-        display: flex;
-        justify-content: center;
-        background-color: lightgray;
-        width: 296px;
-        height: 218px;
-        margin: 21px 9.5px 0px 9.5px;
-        flex-shrink: 1;
-        border: none;
-    }
+.images1-4 {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    width: 296px;
+    height: 218px;
+    margin: 21px 9.5px 0px 9.5px;
+    flex-shrink: 1;
+    border: none;
+}
 
-    .bottom-images1-4 {
-        display: flex;
-        align-self: baseline;
-        z-index: 1;
-        width: 296px;
-        height: 28px;
-        margin-left: 20px;
-        margin-bottom: 21px;
-    }
+.bottom-images1-4 {
+    display: flex;
+    align-self: baseline;
+    z-index: 1;
+    width: 296px;
+    height: 28px;
+    margin-left: 20px;
+    margin-bottom: 21px;
+}
 
-    .bottom-images2-4 {
-        display: flex;
-        align-self: baseline;
-        z-index: 1;
-        width: 296px;
-        height: 28px;
-        margin-left: 9px;
-        margin-bottom: 20px;
-    }
+.bottom-images2-4 {
+    display: flex;
+    align-self: baseline;
+    z-index: 1;
+    width: 296px;
+    height: 28px;
+    margin-left: 9px;
+    margin-bottom: 20px;
+}
 
-    .container {
-        display: flex;
-    }
+.container {
+    display: flex;
+}
 
-    .under1-4 {
-        width: 100%;
-        height: 569px;
-        flex-wrap: wrap;
-        background-color: white;
-    }
+.under1-4 {
+    width: 100%;
+    height: 569px;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
 }

@@ -2,11 +2,6 @@
     padding: 0px;
     margin: 0px;
 }
-/*THE HEADER*/
-.Header {
-    background-color: black;
-    float: left;
-}
 
 sup {
     position: relative;
@@ -16,16 +11,27 @@ sup {
     top: 0.2em;
 }
 
-.title {
-    color: white;
-    font-family: Arial;
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1;
 }
 
-.img {
-    width: 90px;
-    margin: 6.5px 0px 6.5px 0px;
-    padding-top: 0.5px;
+body {
+    height: 100%;
+    margin: 0;
+    color: #000;
+    font-family: roboto;
+    font-size: 1rem;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
 }
+
+
+/*THE HEADER*/
 
 .navbar {
     display: flex;
@@ -52,35 +58,12 @@ sup {
     z-index: 1;
 }
 
-.WHY! {
-    width: 30px;
-    height: 10px;
-} 
-
-.button {
-    display:flex;
-    text-decoration: none;
-    color: black;
-    padding: 5px;
-    align-items: center;
-}
-
-.dropdown2 {
-    display: flex;
-    align-items: flex-end;
-    margin: 19px 0px 0px 0px;
-    float: left;
-    overflow: hidden;
-    font-size: 10px;
-    z-index: 1;
-}
-
 .dropdown .dropbtn {
-    font-size: 16px;
+    font-size: 15px;
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 14px 12px;
     background-color: inherit;
 }
 
@@ -92,85 +75,80 @@ sup {
 .dropdown:hover {
     display: block;
 }
-/*THE MAIN IMAGE*/
-body, html {
-    height: 100%;
-    margin: 0;
-}
 
-.main-image {
+
+/*THE MAIN IMAGE*/
+
+.button {
     display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 50.5%;
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    align-items: center;
 }
 
 .hero-image {
-  display:flex;
-  justify-content: flex-end;
-  background-image: url("Jeep2.jpg");
-  height: auto;
-  margin: 0px auto;
-  background-position: center;
-  background-size: cover;
-  align-items:center; 
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("Jeep2.jpg");
+    height: auto;
+    width: 100%;
+    margin: 0px auto;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
 }
 
 .hero-text {
-  color: white;
-  font-family: Arial;
-  width: 200px;
-  margin: 60px;
+    color: white;
+    font-family: Arial;
+    width: 200px;
+    margin: 60px;
 }
 
 .hero-text button {
-  display:flex;
-  align-items: center;
-  border: none;
-  padding: 5px 10px;
-  color: black;
-  background-color: #FEB92C ;
-  cursor: pointer;
-  margin-bottom:5px;
-  
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 5px 10px;
+    color: black;
+    background-color: #FEB92C;
+    cursor: pointer;
+    margin-bottom: 5px;
 }
+
 .hero-text-1 button {
-  display:flex;
-  align-items: center;
-  border: none;
-  padding: 5px 10px;
-  color: white;
-  background-color: #636363 ;
-  cursor: pointer;
-  margin-bottom:5px;
-  
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    background-color: #636363;
+    cursor: pointer;
+    margin-bottom: 5px;
 }
 
 .hero-text button:hover {
-  display:flex;
-  align-items: center;
-  background-color: #FEB92C ;
-}
-.hero-text-1 button:hover {
-  display: flex;
-  align-items: center;
-  background-color: #636363 ;
+    display: flex;
+    align-items: center;
+    background-color: #FEB92C;
 }
 
-.item1 {
+.hero-text-1 button:hover {
     display: flex;
-    width: 50%;
-    height: 50%;
+    align-items: center;
+    background-color: #636363;
 }
-/*THE FOUR IMAGES UNDER THE MAIN IMAGE*/
+
+
+/*THE FOUR IMAGES UNDER THE 
+MAIN IMAGE*/
+
 .bg-images1-4 {
     display: flex;
     background-color: lightgray;
-}
-
-.bg-bg-images1-4 {
-   background-color: black;
-   justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 .images1-4 {
@@ -187,10 +165,8 @@ body, html {
 .bottom-images1-4 {
     display: flex;
     align-self: baseline;
-    z-index: 1;
     width: 296px;
     height: 28px;
-    margin-left: 20px;
     margin-bottom: 21px;
 }
 
@@ -200,19 +176,14 @@ body, html {
     z-index: 1;
     width: 296px;
     height: 28px;
-    margin-left: 9px;
     margin-bottom: 20px;
 }
 
-.container {
-    display: flex;
-}
-/*UNDER THE FOUR IMAGES*/
-.under1-4 {
-    width: 100%;
-    height: 563px;
-    background-color: white;
 
+/*THE GALLERY*/
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .main-content-2 {
@@ -222,6 +193,43 @@ body, html {
     flex-direction: row;
     font-family: Arial;
     height: auto;
+}
+
+.cards {
+    display: flex;
+    flex: 1;
+    flex-basis: 100px;
+    height: 230px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.VEHICELS {
+    justify-content: center;
+    align-items: center;
+    height: 145px;
+    width: 299px;
+}
+
+.MSRP {
+    color: gray;
+    font-family: Arial;
+    font-size: 9px;
+    margin-right: .07143rem;
+}
+
+.price {
+    color: black;
+    font-family: Arial;
+    font-size: 1rem;
+    width: 200px;
+    margin-right: .07143rem;
+    margin-bottom: 40px;
+}
+
+.under1-4 {
+    width: 100%;
+    background-color: white;
 }
 
 .jumbotron {
@@ -234,82 +242,141 @@ body, html {
     justify-content: center;
 }
 
-.jeep-logo {
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 2;
-    font-family: Arial;
+
+/*UNDER THE GALLERY*/
+
+.bg {
+    width: 100%;
+    height: 233px;
+    background-color: lightgray;
 }
 
-.cards {
+.style-text {
+    font-size: 30px;
+    color: #333333;
+    font-family: Arial;
+    width: 1000px;
+    margin-right: 40px;
+    padding-top: 20px;
+}
+
+.style-link {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: none;
+}
+
+.fourth {
     display: flex;
-    flex: 1;
-    flex-basis: 100px;
-    height: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 1160px;
+    margin-left: 45px;
+}
+
+
+.text {
+    display: flex;
     flex-wrap: wrap;
+    width: 50%;
+    margin: 0px;
+    font-family: sans-serif;
+    color: #333333
+}
+
+
+/*THIS IS THE PAGE ABOVE THE SEARCH BAR*/
+
+.Tab {
+    display: flex;
     flex-direction: row;
 }
 
-.bg-images1-4 {
-    display: flex;
-    background-color: lightgray;
+.Tab:hover {
+    color: white;
 }
 
-.bg-bg-images1-4 {
-   background-color: black;
-   justify-content: center;
+.img2 {
+    width: 100px;
+    height: 35px;
 }
 
-.images1-4 {
+.Text {
     display: flex;
-    justify-content: center;
-    background-color: lightgray;
-    width: 296px;
-    height: 218px;
-    margin: 21px 9.5px 0px 9.5px;
-    flex-shrink: 1;
-    border: none;
-}
-
-.bottom-images1-4 {
-    display: flex;
-    align-self: baseline;
-    z-index: 1;
-    width: 296px;
-    height: 28px;
-    margin-left: 20px;
-    margin-bottom: 21px;
-}
-.bottom-images2-4 {
-    display: flex;
-    align-self: baseline;
-    z-index: 1;
-    width: 296px;
-    height: 28px;
-    margin-left: 9px;
-    margin-bottom: 20px;
-}
-
-.VEHICELS {
     justify-content: center;
     align-items: center;
-    height: 145px;
-    width: 299px;
+    height: 100%;
+    float: left;
 }
 
-.MSRP {
-    color: gray ;
-    font-family: Arial;
-    font-size: 10px;
-    font-weight: 700;
-    margin-right: .07143rem;
+.search {
+    width: 200px;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 0px;
+    height: 28px;
 }
 
-.price {
+.submit p {
+
+    margin: 0px;
+}
+
+.submit {
+    padding: 7px;
+    background: #FDB92C;
+    border: 1px solid #FDB92C;
     color: black;
-    font-family: Arial;
-    font-size: 1rem;
-    font-weight: 700;
-    margin-right: .07143rem;
-    margin-bottom: 40px;
+    font-weight: bold;
+    margin-left: -7px;
+    cursor: pointer;
+    border-radius: 0px;
+    width: 100px;
+    height: 43px;
+}
+
+.submit:hover {
+    background: #FDB92C;
+    transition: all 0.40s;
+    border-radius: 0px;
+}
+
+.search-bar-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    background-color: #212121;
+    width: 100%;
+    height: 110px;
+}
+
+.direction {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/*Footer*/
+
+.space {
+    padding: 100px 40px 40px 25px;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    text-decoration-line: none;
+}
+
+.text-2 {
+    color: white
+}
+
+@media screen and (min-width: 400px;
+) {
+    .container {
+        display: block;
+    }
 }
